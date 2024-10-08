@@ -77,12 +77,10 @@ extension SignInView {
             VStack {
                 /// App logo
                 loginLogo
-                /// "Mobil El Terminali" Text
                 CustomText(color: Color.theme.primaryColor, size: 30, title: "Mobile Sign In")
             }
             .padding()
             
-            /// Sicil Numarası başlık ve textfield
             VStack(alignment: .leading, spacing: 10) {
                 
                 CustomText( title: "User Number")
@@ -91,7 +89,6 @@ extension SignInView {
             }
             .padding([.trailing, .leading, .top, .bottom], 10)
             
-            /// Sifre Numarası başlık ve textfield
             VStack(alignment: .leading, spacing: 10) {
                 
                 CustomText( title: "Password")
